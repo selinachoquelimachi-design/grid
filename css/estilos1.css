@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(187, 9, 9);
+}
+.padre{
+    background-color: rgb(187, 9, 9);
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas: "nombre nombre nombre"
+                        "caja1 caja2 caja3"
+                        "figura figura caja5"
+                        "figura figura caja6"
+                        "figura figura caja7"
+                        "caja8 caja9 web"
+                        "caja8 caja10 web";
+}
+.nombre{
+    background-color: rgb(209, 209, 14);
+    grid-area: nombre
+    
+}
+.caja1{
+    background-color:rgb(209, 209, 14);
+    grid-area: caja1;
+}
+.caja2{
+    background-color:rgb(209, 209, 14);;
+    grid-area: caja2;
+}
+.caja3{
+    background-color:rgb(209, 209, 14);;
+    grid-area: caja3;
+}
+.figura{
+    background-color:rgb(209, 209, 14);;
+    grid-area: figura;
+}
+.oso{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+.cabeza{
+    width: 80px;
+    height: 60px;
+    background: #5709e7;
+    border-radius: 50%;
+    position: absolute;
+    top: 85px;
+    left: 65px;
+}
+.oreja1{
+    width: 30px;
+    height: 30px;
+    background: rgb(231, 9, 28);
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 55px;
+}
+.oreja2{
+    width: 30px;
+    height: 30px;
+    background: rgb(231, 9, 28) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 65px;
+    left: 115px;
+}
+.cuerpo{
+    width: 150px;
+    height: 90px;
+    background: #4404db;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+.ojo1{
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.ojo2{
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.nariz{
+    width: 30px;
+    height: 20px;
+    background: rgb(224, 130, 6);
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+}
+.caja5{
+    background-color:rgb(209, 209, 14);;
+    grid-area: caja5;
+}
+.caja6{
+    background-color:rgb(209, 209, 14);;
+    grid-area: caja6;
+}
+.caja7{
+    background-color:rgb(209, 209, 14);;
+    grid-area: caja7;
+}
+.caja8{
+    background-color:rgb(209, 209, 14);;
+    grid-area: caja8;
+}
+.caja9{
+    background-color:rgb(209, 209, 14);;
+    grid-area: caja9;
+}
+.caja10{
+    background-color:rgb(209, 209, 14);;
+    grid-area: caja10;
+}
+.web{
+    background-color:rgb(209, 209, 14);;
+    grid-area: web;
+    align-items: center;
+    justify-content: center;
+}
